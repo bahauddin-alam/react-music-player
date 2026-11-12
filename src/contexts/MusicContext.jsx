@@ -7,59 +7,60 @@ const songs = [
     id: 1,
     title: "Keep You Away",
     artist: "EchoBR",
-    url: "/songs/Keep You Away.wav",
+    url: "/songs/Keep You Away.mp3",
     duration: "4:32",
   },
   {
     id: 2,
     title: "Breaching",
     artist: "EchoBR",
-    url: "/songs/Breaching.wav",
+    url: "/songs/Breaching.mp3",
     duration: "3:45",
   },
   {
     id: 3,
     title: "Forgotten Memories",
     artist: "EchoBR",
-    url: "/songs/Forgotten Memories.wav",
+    url: "/songs/Forgotten Memories.mp3",
     duration: "3:12",
   },
   {
     id: 4,
     title: "Nothing You Really Want",
     artist: "EchoBR",
-    url: "/songs/nothing you really want.wav",
+    url: "/songs/nothing you really want.mp3",
     duration: "2:58",
   },
   {
     id: 5,
     title: "Glacier Blue",
     artist: "EchoBR",
-    url: "/songs/Glacier Blue.wav",
+    url: "/songs/Glacier Blue.mp3",
     duration: "3:28",
   },
   {
     id: 6,
     title: "In Love",
     artist: "EchoBR",
-    url: "/songs/In Love.wav",
+    url: "/songs/In Love.mp3",
     duration: "3:15",
   },
   {
     id: 7,
     title: "Lemon Balm",
     artist: "EchoBR",
-    url: "/songs/Lemon Balm.wav",
+    url: "/songs/Lemon Balm.mp3",
     duration: "3:42",
   },
   {
     id: 8,
     title: "Momentary Bliss",
     artist: "EchoBR",
-    url: "/songs/Momentary Bliss.wav",
+    url: "/songs/Momentary Bliss.mp3",
     duration: "2:45",
   },
 ];
+
 export const MusicProvider = ({ children }) => {
   const [allSongs, setAllSongs] = useState(songs);
   const [currentTrack, setCurrentTrack] = useState(songs[0]);
